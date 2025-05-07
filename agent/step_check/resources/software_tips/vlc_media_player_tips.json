@@ -1,0 +1,15 @@
+{
+    "vlc media player": [
+        "If the plan involves opening Tools followed by Preferences, it can be simplified into a single step: press Ctrl+P to open Preferences directly.",
+        "If the plan involves opening Media followed by Convert/Save, it can be simplified into a single step: press Ctrl+R to open Convert/Save directly.",
+        "After opening Preferences, depending on the task requirements, consider whether you need to click the 'All' button under 'Show settings' in the bottom left corner to display all settings.",
+        "After opening Preferences, if some settings are not visible in the current window, an additional step may be needed to maximize the Preferences window.",
+        "To open Effects and Filters, simply use the shortcut Ctrl+E.",
+        "To open Convert/Save, simply use the shortcut Ctrl+R.",
+        "The 'Main interfaces' option only becomes visible after clicking 'All' under 'Show settings' in the Preferences window.",
+        "To enable Qt under 'Main interfaces', you don't select it from the right panel. Instead, double click 'Main interfaces' on the left to expand the section, then click on 'Qt' from the expanded list.",
+        "When modifying the folder used to store your recordings, there's no need to click 'All' in Preferences to display all settings.",
+        "To perform a Convert/Save operation, after clicking 'Add', you must select the target file first by double-clicking, rather than clicking the Convert/Save button directly.",
+        "Double-click Main interface to expand its sub-items, then scroll the left panel if needed and click Qt."
+    ]
+}

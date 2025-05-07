@@ -1,0 +1,12 @@
+{
+    "vlc media player": [
+        "When you need to open Preferences, simply use the Ctrl+P shortcut.",
+        "To open Effects and Filters, simply use the shortcut Ctrl+E.",
+        "To open Convert/Save, simply use the shortcut Ctrl+R.",
+        "The shortcut to maximize the window is to first press Alt + Space, then press X.",
+        "The 'Main interfaces' option only becomes visible after clicking 'All' under 'Show settings' in the Preferences window.",
+        "To expand Main interface, double click 'Main interface' to expand its options.",
+        "To enable Qt under 'Main interfaces', you don't select it from the right panel. Instead, click the arrow next to 'Main interfaces' on the left to expand the section, then click on 'Qt' from the expanded list.",
+        "Double-click Main interface to expand its sub-items, then scroll the left panel if needed and click Qt."
+    ]
+}

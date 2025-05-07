@@ -1,0 +1,52 @@
+[
+    {
+        "project_id": "WEB_0",
+        "user_query": "Download a video from mixkit website.",
+        "video_path": "D:\\data\\web\\WEB_0\\WEB_0.mp4"
+    },
+    {
+        "project_id": "WEB_1",
+        "user_query": "Download a video from mixkit website.",
+        "video_path": "D:\\data\\web\\WEB_1\\WEB_1.mp4"
+    },
+    {
+        "project_id": "WEB_2",
+        "user_query": "Download a 1920x1080HD video about 'Dog catches a ball in a river' from 'mixkit.co'.",
+        "video_path": "D:\\data\\web\\WEB_2\\WEB_2.mp4"
+    },
+    {
+        "project_id": "WEB_3",
+        "user_query": "Download a 1920x1080HD video about 'White cat lying among the grasses seen up close' from 'mixkit.co'.",
+        "video_path": "D:\\data\\web\\WEB_3\\WEB_3.mp4"
+    },
+    {
+        "project_id": "WEB_4",
+        "user_query": "Go to the wikipedia and download the frontpage photo of keyword 'astronaut'.",
+        "video_path": "D:\\data\\web\\WEB_4\\WEB_4.mp4"
+    },
+    {
+        "project_id": "WEB_5",
+        "user_query": "Go to the flickr website and download a 2K forest photo.",
+        "video_path": "D:\\data\\web\\WEB_5\\WEB_5.mp4"
+    },
+    {
+        "project_id": "WEB_6",
+        "user_query": "Go to the flickr website and download a original size photo about butterfly.",
+        "video_path": "D:\\data\\web\\WEB_6\\WEB_6.mp4"
+    },
+    {
+        "project_id": "WEB_7",
+        "user_query": "Go to the flickr website and download a large size photo by searching 'newyork' keyword, and then find a photo of a woman in a red dress on the subway, and save it with name 'newyork.jpg'.",
+        "video_path": "D:\\data\\web\\WEB_7\\WEB_7.mp4"
+    },
+    {
+        "project_id": "WEB_8",
+        "user_query": "Go to the pexels website and download a photo by searching 'sky' (long photo is preferred).",
+        "video_path": "D:\\data\\web\\WEB_8\\WEB_8.mp4"
+    },
+    {
+        "project_id": "WEB_9",
+        "user_query": "Go to the pexels website and download a video by searching 'sunset'.",
+        "video_path": "D:\\data\\web\\WEB_9\\WEB_9.mp4"
+    }
+]
