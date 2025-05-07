@@ -13,3 +13,7 @@ parsed_screenshot_vlc.json
 set_api_key.bat
 agent/config/googleocr-config.json
 **/config/basic.yaml
+data/acrobat_data.json
+data/chrome_data.json
+data/settings_data.json
+data/vlc_data.json
