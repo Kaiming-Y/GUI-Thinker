@@ -12,3 +12,4 @@ meta_data_vlc.json
 parsed_screenshot_vlc.json
 set_api_key.bat
 agent/config/googleocr-config.json
+**/config/basic.yaml
