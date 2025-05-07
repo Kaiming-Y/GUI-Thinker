@@ -15,13 +15,13 @@ from data.data_config import load_datafile
 from experiment.test_utils import get_projfile_path, open_projfile, close_projfile
 
 
-software_name = "VLC media player"
+software_name = "Settings"
 
 begin_idx = 0
-end_idx = 1
+end_idx = None
 
 aug_begin_idx = 0
-aug_end_idx = 1
+aug_end_idx = None
 
 # Ablation Experiments
 ablation = False
@@ -110,7 +110,6 @@ for i in range(len(datafile)):
             print("===Current task===", "Index:",  idx, state)
             print(autopc.current_task.name.strip())
             code, state, current_task = autopc.run_step(state,
-                                                        query,
                                                         code,
                                                         autopc.current_task, 
                                                         meta_data, 

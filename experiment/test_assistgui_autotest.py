@@ -92,7 +92,6 @@ for i in range(len(datafile)):
             print("===Current task===", "Index:",  idx, state)
             print(autopc.current_task.name.strip())
             code, state, current_task = autopc.run_step(state,
-                                                        query,
                                                         code,
                                                         autopc.current_task, 
                                                         meta_data, 
