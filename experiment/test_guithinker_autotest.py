@@ -15,13 +15,13 @@ from data.data_config import load_datafile
 from experiment.test_utils import get_projfile_path, open_projfile, close_projfile
 
 
-software_name = "Settings"
+software_name = "VLC media player"
 
 begin_idx = 0
-end_idx = None
+end_idx = 1
 
 aug_begin_idx = 0
-aug_end_idx = None
+aug_end_idx = 1
 
 # Ablation Experiments
 ablation = False

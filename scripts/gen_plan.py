@@ -2,14 +2,13 @@ import os
 import sys
 import copy
 import time
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from agent.autopc import AutoPC
 from agent.utils.gui_capture import get_screenshot, focus_software
 from agent.gui_parser.sender import send_gui_parser_request
 from agent.actor.utils import format_gui, compress_gui
 from agent.config import basic_config
 from experiment.test_utils import get_projfile_path, open_projfile, close_projfile
-from experiment.log_tee import Tee
 
 
 software_name = "VLC media player"

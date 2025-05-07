@@ -1,0 +1,52 @@
+[
+    {
+        "project_id": "VLC00",
+        "user_query": "Can you turn off the cone and artwork that appear in the background when VLC starts or when no video is playing?",
+        "video_path": "D:\\data\\vlc\\VLC00\\VLC00.mp4"
+    },
+    {
+        "project_id": "VLC01",
+        "user_query": "Please set a shortcut (Ctrl + Space) to pause/play the video in VLC without switching from other software.",
+        "video_path": "D:\\data\\vlc\\VLC01\\VLC01.mp4"
+    },
+    {
+        "project_id": "VLC02",
+        "user_query": "Please set the maximum volume in VLC Media Player to ensure the volume never exceeds 100% while playing videos.",
+        "video_path": "D:\\data\\vlc\\VLC02\\VLC02.mp4"
+    },
+    {
+        "project_id": "VLC03",
+        "user_query": "Please change the folder where VLC Player stores snapshots to the Desktop.",
+        "video_path": "D:\\data\\vlc\\VLC03\\VLC03.mp4"
+    },
+    {
+        "project_id": "VLC04",
+        "user_query": "Please set a frame from the current video as my computer's desktop background.",
+        "video_path": "D:\\data\\vlc\\VLC04\\VLC04.mp4"
+    },
+    {
+        "project_id": "VLC05",
+        "user_query": "Please convert the music video 'project.mp4' to an MP3 file and save it as 'See You Again.mp3' on the desktop.",
+        "video_path": "D:\\data\\vlc\\VLC05\\VLC05.mp4"
+    },
+    {
+        "project_id": "VLC06",
+        "user_query": "Please compress the video to an MPEG-4 file optimized for 1080p TV playback, and save it on the Desktop with an underscore prefix in the name.",
+        "video_path": "D:\\data\\vlc\\VLC06\\VLC06.mp4"
+    },
+    {
+        "project_id": "VLC07",
+        "user_query": "Please rotate the video to the correct orientation.",
+        "video_path": "D:\\data\\vlc\\VLC07\\VLC07.mp4"
+    },
+    {
+        "project_id": "VLC08",
+        "user_query": "Save the video 'project.mp4' as 'rotated.mp4' under Desktop, ensuring the video transformation settings are included.",
+        "video_path": "D:\\data\\vlc\\VLC08\\VLC08.mp4"
+    },
+    {
+        "project_id": "VLC09",
+        "user_query": "Please add the logo watermark, with the file name 'watermark.png', to the bottom-right corner of the video, aligned with the edges.",
+        "video_path": "D:\\data\\vlc\\VLC09\\VLC09.mp4"
+    }
+]

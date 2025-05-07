@@ -119,7 +119,7 @@ def run_task(task_id: str,
         
         ## execute the action code
         if code != "":
-            focus_software(software_name)
+            # focus_software(software_name)
             exec(code)
             last_screenshot_path = screenshot_path
         
