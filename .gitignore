@@ -1,5 +1,15 @@
+**/__pycache__/
+*.pyc
+*.pyo
+.idea
+**/.cache/
+**/.log/
+**/backend_cache/
+**/test_results/
+yolov8n-oiv7.pt
+.DS_Store
+*.log
 meta_data_vlc.json
 parsed_screenshot_vlc.json
 set_api_key.bat
 agent/config/googleocr-config.json
-
