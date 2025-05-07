@@ -309,12 +309,12 @@ Note:
 
             tips = self.get_software_tips(self.software_tips, software.replace(' ', '').lower())
             plans = self.plancritic(software, video_name, query, init_plans, gui_info, screenshot_path, raw_steps, tips)
+            # plans = init_plans # w/o planner critic
         else:
 
             init_plans = self.getplans_novideo(software, query, screenshot_path)
 
             tips = self.get_software_tips(self.software_tips, software.replace(' ', '').lower())
-
             plans = self.plancritic(software, "", query, init_plans, gui_info, screenshot_path, "", tips)
 
         return plans
