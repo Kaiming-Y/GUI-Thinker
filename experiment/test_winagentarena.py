@@ -7,7 +7,7 @@ import json
 from typing import Dict
 import pyautogui
 import shutil
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from agent.autopc import AutoPC
 from agent.utils.gui_capture import get_screenshot, focus_software
 from agent.gui_parser.sender import send_gui_parser_request
