@@ -15,12 +15,12 @@ from data.data_config import load_datafile
 from experiment.test_utils import get_projfile_path, open_projfile, close_projfile
 
 
-software_name = "Settings"
+software_name = "Adobe Acrobat"
 
-begin_idx = 6
+begin_idx = 10
 end_idx = None
 
-aug_begin_idx = 0
+aug_begin_idx = 1
 aug_end_idx = None
 
 datafile = load_datafile(software_name)[begin_idx:end_idx]

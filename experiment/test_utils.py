@@ -15,12 +15,12 @@ def open_projfile(software_name, projfile_path=None):
 
     elif software_name == "adobeacrobat":
         assert projfile_path is not None
-        origin_projfile_path = get_origin_projfile_path(software_name, projfile_path)
-        # Ensure the file is original
-        try:
-            shutil.copy2(origin_projfile_path, projfile_path)
-        except Exception as e:
-            print(e)
+        # origin_projfile_path = get_origin_projfile_path(software_name, projfile_path)
+        # # Ensure the file is original
+        # try:
+        #     shutil.copy2(origin_projfile_path, projfile_path)
+        # except Exception as e:
+        #     print(e)
         # Open the project file
         subprocess.Popen(["C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\Acrobat.exe", projfile_path], shell=True)
         
