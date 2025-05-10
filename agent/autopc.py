@@ -195,8 +195,8 @@ class AutoPC:
                 if_screenshot=True,
             )
 
-        #     if stepcheck_decision == '<Finished>':
-        #         state = '<Next>'
+            if stepcheck_decision == '<Finished>':
+                state = '<Next>'
 
         if state == '<Continue>': #
             # Actor: Continue means nothing happen do actorcritic
@@ -206,8 +206,7 @@ class AutoPC:
                 screenshot_path=screenshot_path,
                 history=self.history,
                 software_name=software_name,
-                if_screenshot=True,
-                if_screenshot=True,
+                if_screenshot=True
             )
 
         if state == '<Critic>':
