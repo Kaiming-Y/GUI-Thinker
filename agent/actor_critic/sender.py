@@ -11,7 +11,7 @@ def send_actor_critic_request(url,
                        history: list=[], 
                        task_id: str=None, 
                        step_id: str=None,
-                       if_screenshot=False):
+                       if_screenshot=True):
     """Send a POST request to the server with the query and the image."""
     # Encode the image
     screenshot_data = [encode_image(spath) for spath in screenshot_path]

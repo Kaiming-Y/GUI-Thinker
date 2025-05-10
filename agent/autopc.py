@@ -184,16 +184,16 @@ class AutoPC:
         )
         # parsed_screenshot = None
         
-        # if state == '<Continue>':
-        #     stepcheck_decision, current_task, history = self.run_step_check(
-        #         current_task=current_task, 
-        #         parsed_screenshot=parsed_screenshot, 
-        #         screenshot_path=screenshot_path,
-        #         stepcheck_decision='',
-        #         history=self.history,
-        #         software_name=software_name,
-        #         if_screenshot=if_screenshot,
-        #     )
+        if state == '<Continue>':
+            stepcheck_decision, current_task, history = self.run_step_check(
+                current_task=current_task, 
+                parsed_screenshot=parsed_screenshot, 
+                screenshot_path=screenshot_path,
+                stepcheck_decision='',
+                history=self.history,
+                software_name=software_name,
+                if_screenshot=True,
+            )
 
         #     if stepcheck_decision == '<Finished>':
         #         state = '<Next>'
@@ -207,6 +207,7 @@ class AutoPC:
                 history=self.history,
                 software_name=software_name,
                 if_screenshot=True,
+                if_screenshot=True,
             )
 
         if state == '<Critic>':
@@ -218,7 +219,7 @@ class AutoPC:
                 screenshot_path=[last_screenshot_path, screenshot_path],
                 history=self.history,
                 software_name=software_name,
-                if_screenshot=if_screenshot)
+                if_screenshot=True)
 
             code, state = critic_output # if correction, code is not "", else code is ""
             # state: critic, next

@@ -8,10 +8,10 @@
         "The maximize the window: [For Preference Window] double click the window title with text 'Simple Preferences'/'Advanced Preferences'",
         "The 'Main interfaces' option only becomes visible after clicking 'All' under 'Show settings' in the Preferences window.",
         "To expand Main interface, double click 'Main interface' to expand its options.",
-        "To enable Qt under 'Main interfaces', you don't select it from the right panel. Instead, click the arrow next to 'Main interfaces' on the left to expand the section, then click on 'Qt' from the expanded list.",
-        "Double-click Main interface to expand its sub-items, then scroll the left panel if needed and click Qt.",
+        "To enable Qt under 'Main interfaces', you don't select it from the right panel. Instead, double-click 'Main interfaces' on the left to expand the section, then click on 'Qt' from the expanded list.",
         "Double-click the path in the Location field to select it, then press Ctrl+C to copy it.",
-        "Clicking on Qt does not mean clicking on the Qt interface. Qt appears in the expanded list under Main interface on the left panel, while the Qt interface appears in the right-hand pane after Main interface is selected.",
-        "After double-clicking Main interface, its list may expand but remain out of view if the window is too small—so you need to scroll to confirm it."
+        "Clicking on Qt does not mean clicking on the 'Qt interface'. Qt appears in the expanded list under Main interface on the left panel but not the Qt interface appears in the right-hand pane after Main interface is selected.",
+        "After double-clicking Main interface, its list may expand but remain out of view if the window is too small—so you need to scroll to confirm it.",
+        "In the Advanced Preferences window ('All' settings visible), if you can't find the desired entry in the left sidebar, move your mouse over that sidebar and scroll."
     ]
 }
