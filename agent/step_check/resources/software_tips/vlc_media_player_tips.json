@@ -15,6 +15,9 @@
         "In the All Preferences view, if you don't see Playlist in the left-hand list, scroll the left panel to locate it.",
         "In the All Preferences view, if Qt is not visible in the left-hand list, first double-click on Main interface to expand its sub-items, then scroll the left panel to find and click Qt.",
         "Copy the video's location from Media Information, then paste it into the File Explorer address bar to open the containing folder.",
-        "In Media Information, under the General tab, the Location field shows the full path of the current video."
+        "In Media Information, under the General tab, the Location field shows the full path of the current video.",
+        "Scrolling to find Qt and clicking on Qt should be separated into two subtasks.",
+        "To open Qt: go to Preferences > maximize the window(first press hotkey: Alt + Space, then press X) > double-click on Main interface > scroll to navigate to Qt (note: not Qt interface) > click on Qt in the left panel.",
+        "Tick the 'Transforme' checkbox, open its dropdown menu, and choose 'Rotate by 180 degrees' to rotate the video."
     ]
 }

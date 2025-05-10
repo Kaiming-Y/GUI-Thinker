@@ -17,8 +17,10 @@
         "In the All Preferences view, if you don't see Playlist in the left-hand list, scroll the left panel to locate it.",
         "In the All Preferences view, if Qt is not visible in the left-hand list, first double-click on Main interface to expand its sub-items, then scroll the left panel to find and click Qt.",
         "When outlining a Convert/Save task, put a standalone subtask-'Double-click the target file in the pop-up file selection window to select it'-between the step that clicks Add and the step that clicks Convert/Save.",
+        "When outlining a Convert/Save task, put a standalone subtask-'Double-click the target file in the pop-up file selection window to select it'-between the step that clicks Add and the step that clicks Convert/Save.",
         "To find the location of the current video file, open the Media Information window.",
         "Copy the video's location from Media Information, then paste it into the File Explorer address bar to open the containing folder.",
-        "In Media Information, under the General tab, the Location field shows the full path of the current video."
+        "In Media Information, under the General tab, the Location field shows the full path of the current video.",
+        "Tick the 'Transforme' checkbox, open its dropdown menu, and choose 'Rotate by 180 degrees' to rotate the video."
     ]
 }
