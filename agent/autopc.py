@@ -192,7 +192,7 @@ class AutoPC:
                 stepcheck_decision='',
                 history=self.history,
                 software_name=software_name,
-                if_screenshot=if_screenshot,
+                if_screenshot=True,
             )
 
             if stepcheck_decision == '<Finished>':
@@ -206,7 +206,7 @@ class AutoPC:
                 screenshot_path=screenshot_path,
                 history=self.history,
                 software_name=software_name,
-                if_screenshot=False,
+                if_screenshot=True,
             )
 
         if state == '<Critic>':
@@ -218,7 +218,7 @@ class AutoPC:
                 screenshot_path=[last_screenshot_path, screenshot_path],
                 history=self.history,
                 software_name=software_name,
-                if_screenshot=if_screenshot)
+                if_screenshot=True)
 
             code, state = critic_output # if correction, code is not "", else code is ""
             # state: critic, next
