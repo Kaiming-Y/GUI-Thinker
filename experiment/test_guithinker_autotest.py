@@ -18,10 +18,10 @@ from experiment.test_utils import get_projfile_path, open_projfile, close_projfi
 software_name = "VLC media player"
 
 begin_idx = 0
-end_idx = None
+end_idx = 1
 
 aug_begin_idx = 0
-aug_end_idx = 1
+aug_end_idx = None
 
 # Ablation Experiments
 ablation = False
@@ -105,7 +105,7 @@ for i in range(len(datafile)):
             time.sleep(2)
             meta_data, screenshot_path = get_screenshot(software_name)
             # print("meta data: ", meta_data)
-            # print(screenshot_path)
+            print(screenshot_path)
             
             print("===Current task===", "Index:",  idx, state)
             print(autopc.current_task.name.strip())
