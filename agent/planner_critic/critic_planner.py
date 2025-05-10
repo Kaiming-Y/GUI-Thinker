@@ -143,6 +143,7 @@ Modifications could include:
 1) Delete unnecessary parts. for example, remove the importing footage step if the user's video has already been added to the track.
 2) Change the content. For example, the video is about achieving an effect on the text "hello", but the user wants to generate "world".
 3) Remove any unnecessary steps based on the information provided in the screenshot image.
+4) The plan does not need to include steps for opening or closing the software.
 
 The screenshot shows the current software state. Based on the screenshot, you have to remove unnecessary steps.
 For example, the text 'hello world' already selected, remove the step 'select the text hello world in the first slide.'.
@@ -239,6 +240,7 @@ You need to verify whether the provided initial plans can fulfill the user query
 
 Software name: {software}
 Software tips: {tips}
+The plan does not need to include steps for opening or closing the software.
 
 Extracted key steps of instruction video {video_name}: {raw_steps}
 

@@ -8,8 +8,8 @@
 yolov8n-oiv7.pt
 .DS_Store
 *.log
-meta_data_vlc.json
-parsed_screenshot_vlc.json
+**/meta_data.json
+**/parsed_screenshot.json
 set_api_key.bat
 agent/config/googleocr-config.json
 **/config/basic.yaml

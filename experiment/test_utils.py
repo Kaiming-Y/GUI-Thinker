@@ -60,7 +60,10 @@ def get_projfile_path(software_name, video_path):
     elif software_name == "vlcmediaplayer":
         projfile_path = os.path.join(os.path.dirname(video_path), "project.mp4")
     else:
-        projfile_path = ''
+        projfile_path = None
+
+    if not os.path.exists(projfile_path):
+        projfile_path = None
 
     return projfile_path
 
