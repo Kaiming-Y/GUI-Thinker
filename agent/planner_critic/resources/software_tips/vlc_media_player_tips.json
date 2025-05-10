@@ -1,25 +1,19 @@
 {
     "vlc media player": [
-        "If the plan involves opening Tools followed by Preferences(Access VLC Preferences), it can be simplified into a single step: press Ctrl+P to open Preferences directly.",
-        "If the plan involves opening Media followed by Convert/Save(Access VLC Convert/Save), it can be simplified into a single step: press Ctrl+R to open Convert/Save directly.",
-        "If the plan involves opening Tools followed by Media Information(Access Media Information), it can be simplified into a single step: press Ctrl+I to open Media Information directly.",
-        "If the plan involves opening Tools followed by Effects and Filters(Access Effects and Filters), it can be simplified into a single step: press Ctrl+E to open Effects and Filters directly.",
-        "When you need to view All interface settings, it's recommended to maximize the Preferences window after opening it.",
-        "After opening Preferences, depending on the task requirements, consider whether you need to click the 'All' button under 'Show settings' in the bottom left corner to display all settings.",
-        "After opening Preferences, if some settings are not visible in the current window, an additional step may be needed to maximize the Preferences window.",
-        "To open Effects and Filters, simply use the shortcut Ctrl+E.",
-        "To open Convert/Save, simply use the shortcut Ctrl+R.",
+        "If the plan involves opening Tools followed by Preferences(Access VLC Preferences), just use a single step in plan: press Ctrl+P to open Preferences directly.",
+        "If the plan involves opening Media followed by Convert/Save(Access VLC Convert/Save), just use a single step in plan: press Ctrl+R to open Convert/Save directly.",
+        "If the plan involves opening Tools followed by Media Information(Access Media Information), just use a single step in plan: press Ctrl+I to open Media Information directly.",
+        "If the plan involves opening Tools followed by Effects and Filters(Access Effects and Filters), just use a single step in plan: press Ctrl+E to open Effects and Filters directly.",
+        "When you open the Preferences Window, it's recommended to insert a step before any operations: maximize the Preferences window.",
         "The 'Main interfaces' option only becomes visible after clicking 'All' under 'Show settings' in the Preferences window.",
-        "Double-click on Main interface to expand its list of sub-items. Double-click on Main interface to expand its list of sub-items.",
+        "Double-click on Main interface to expand its list of sub-items",
+        "[IMPORTANT] To open Qt: go to Preferences > maximize the window > double-click on Main interface > scroll to navigate to Qt (note: not 'Qt interface') > click on Qt in the left panel.",
+        "Scrolling to find Qt and clicking on Qt should be separated into two subtasks.",
         "When modifying the folder used to store your recordings, there's no need to click 'All' in Preferences to display all settings.",
         "To perform a Convert/Save operation, after clicking 'Add', the next two steps should be: double-click to select the target file from the pop-up file selection window, and then click the Convert/Save button once the file is successfully selected.",
-        "Double-click Main interface to expand its sub-items, then scroll the left panel if needed and click Qt.",
         "In the All Preferences view, if you don't see Playlist in the left-hand list, scroll the left panel to locate it.",
-        "In the All Preferences view, if Qt is not visible in the left-hand list, first double-click on Main interface to expand its sub-items, then scroll the left panel to find and click Qt.",
         "To find the location of the current video file, open the Media Information window.",
         "Copy the video's location from Media Information, then paste it into the File Explorer address bar to open the containing folder.",
-        "In Media Information, under the General tab, the Location field shows the full path of the current video.",
-        "Scrolling to find Qt and clicking on Qt should be separated into two subtasks.",
-        "To open Qt: go to Preferences > maximize the window > double-click on Main interface > scroll to navigate to Qt (note: not Qt interface) > click on Qt in the left panel."
+        "In Media Information, under the General tab, the Location field shows the full path of the current video."
     ]
 }

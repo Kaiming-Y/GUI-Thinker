@@ -17,7 +17,7 @@ from experiment.test_utils import get_projfile_path, open_projfile, close_projfi
 
 software_name = "VLC media player"
 
-begin_idx = 3
+begin_idx = 7
 end_idx = None
 
 aug_begin_idx = 0
