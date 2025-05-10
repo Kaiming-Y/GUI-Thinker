@@ -11,7 +11,7 @@ from pathlib import Path
 from google.cloud import vision
 from google.cloud.vision_v1 import AnnotateImageResponse
 from os.path import join as pjoin
-
+from google.api_core.exceptions import ServiceUnavailable
 
 def text_detection(input_file, save_png=True):
     start = time.time()
@@ -51,6 +51,9 @@ def text_detection(input_file, save_png=True):
 
 
 def ocr_detection_google(imgpath):
+    max_retries=3
+    retry_delay=2
+    
     client = vision.ImageAnnotatorClient()
 
     with io.open(imgpath, 'rb') as image_file:
@@ -58,14 +61,31 @@ def ocr_detection_google(imgpath):
 
     image = vision.Image(content=content)
 
-    response = client.text_detection(image=image)
-    response = json.loads(AnnotateImageResponse.to_json(response))
-    texts = response['textAnnotations']
+    # response = client.text_detection(image=image)
+    # response = json.loads(AnnotateImageResponse.to_json(response))
+    # texts = response['textAnnotations']
 
-    if texts:
-        return texts[1:]
-    else:
-        return None
+    # if texts:
+    #     return texts[1:]
+    # else:
+    #     return None
+    
+    for attempt in range(max_retries):
+        try:
+            response = client.text_detection(image=image)
+            response = json.loads(AnnotateImageResponse.to_json(response))
+            texts = response['textAnnotations']
+
+            if texts:
+                return texts[1:]
+            else:
+                return None
+        except ServiceUnavailable as e:
+            print(f"[OCR RETRY] Attempt {attempt+1}/{max_retries} failed: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(retry_delay)
+            else:
+                raise
 
 
 class Text:

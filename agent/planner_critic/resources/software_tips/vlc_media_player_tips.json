@@ -1,8 +1,9 @@
 {
     "vlc media player": [
-        "If the plan involves opening Tools followed by Preferences, it can be simplified into a single step: press Ctrl+P to open Preferences directly.",
-        "If the plan involves opening Media followed by Convert/Save, it can be simplified into a single step: press Ctrl+R to open Convert/Save directly.",
-        "If the plan involves opening Tools followed by Media Information, it can be simplified into a single step: press Ctrl+I to open Media Information directly.",
+        "If the plan involves opening Tools followed by Preferences(Access VLC Preferences), it can be simplified into a single step: press Ctrl+P to open Preferences directly.",
+        "If the plan involves opening Media followed by Convert/Save(Access VLC Convert/Save), it can be simplified into a single step: press Ctrl+R to open Convert/Save directly.",
+        "If the plan involves opening Tools followed by Media Information(Access Media Information), it can be simplified into a single step: press Ctrl+I to open Media Information directly.",
+        "If the plan involves opening Tools followed by Effects and Filters(Access Effects and Filters), it can be simplified into a single step: press Ctrl+E to open Effects and Filters directly.",
         "When you need to view All interface settings, it's recommended to maximize the Preferences window after opening it.",
         "After opening Preferences, depending on the task requirements, consider whether you need to click the 'All' button under 'Show settings' in the bottom left corner to display all settings.",
         "After opening Preferences, if some settings are not visible in the current window, an additional step may be needed to maximize the Preferences window.",

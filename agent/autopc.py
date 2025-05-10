@@ -182,6 +182,7 @@ class AutoPC:
             screenshot_path, 
             meta_data,
         )
+        # parsed_screenshot = None
         
         # if state == '<Continue>':
         #     stepcheck_decision, current_task, history = self.run_step_check(

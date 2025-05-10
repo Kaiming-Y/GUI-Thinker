@@ -15,13 +15,13 @@ from data.data_config import load_datafile
 from experiment.test_utils import get_projfile_path, open_projfile, close_projfile
 
 
-software_name = "Settings"
+software_name = "VLC media player"
 
 begin_idx = 3
 end_idx = None
 
 aug_begin_idx = 0
-aug_end_idx = None
+aug_end_idx = 1
 
 # Ablation Experiments
 ablation = False
@@ -69,7 +69,7 @@ for i in range(len(datafile)):
             exec(pre_actions)
 
         # Agent Parameters
-        maximum_step = 25
+        maximum_step = 31
         max_critic_trials = 3
         state = '<Continue>'
         code = ""
@@ -120,7 +120,7 @@ for i in range(len(datafile)):
             
             ## execute the action code
             if code != "":
-                focus_software(software_name)
+                # focus_software(software_name)
                 exec(code)
                 last_screenshot_path = screenshot_path
             

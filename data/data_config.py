@@ -5,19 +5,16 @@ import re
 
 current_path = os.path.dirname(os.path.realpath(__file__))
 
-ACROBAT_DATAFILE_NAME = "acrobat_data.json"
-SETTINGS_DATAFILE_NAME = "settings_data.json"
-WEB_DATAFILE_NAME = "chrome_data.json"
+SOFTWARE_DATAFILE_MAP = {
+    "settings": "settings_data.json",
+    "adobeacrobat": "acrobat_data.json",
+    "googlechrome": "chrome_data.json",
+    "vlcmediaplayer": "vlc_data.json",
+}
 
-def get_datafile_name(software_name):
-    software_name = re.sub(r'[^a-z0-9]', '', software_name.lower())
-    if software_name == "settings":
-        return SETTINGS_DATAFILE_NAME
-    elif software_name == "adobeacrobat":
-        return ACROBAT_DATAFILE_NAME
-    elif software_name == "googlechrome":
-        return WEB_DATAFILE_NAME
-    
+def get_datafile_name(software_name: str) -> str:
+    normalized = re.sub(r'[^a-z0-9]', '', software_name.lower())
+    return SOFTWARE_DATAFILE_MAP.get(normalized)
 
 def load_datafile(software_name):
     datafile_name = get_datafile_name(software_name)
