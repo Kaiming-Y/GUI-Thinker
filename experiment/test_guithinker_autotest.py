@@ -17,7 +17,7 @@ from experiment.test_utils import get_projfile_path, open_projfile, close_projfi
 
 software_name = "Settings"
 
-begin_idx = 0
+begin_idx = 3
 end_idx = None
 
 aug_begin_idx = 0

@@ -183,19 +183,19 @@ class AutoPC:
             meta_data,
         )
         
-        if state == '<Continue>':
-            stepcheck_decision, current_task, history = self.run_step_check(
-                current_task=current_task, 
-                parsed_screenshot=parsed_screenshot, 
-                screenshot_path=screenshot_path,
-                stepcheck_decision='',
-                history=self.history,
-                software_name=software_name,
-                if_screenshot=if_screenshot,
-            )
+        # if state == '<Continue>':
+        #     stepcheck_decision, current_task, history = self.run_step_check(
+        #         current_task=current_task, 
+        #         parsed_screenshot=parsed_screenshot, 
+        #         screenshot_path=screenshot_path,
+        #         stepcheck_decision='',
+        #         history=self.history,
+        #         software_name=software_name,
+        #         if_screenshot=if_screenshot,
+        #     )
 
-            if stepcheck_decision == '<Finished>':
-                state = '<Next>'
+        #     if stepcheck_decision == '<Finished>':
+        #         state = '<Next>'
 
         if state == '<Continue>': #
             # Actor: Continue means nothing happen do actorcritic
@@ -205,7 +205,7 @@ class AutoPC:
                 screenshot_path=screenshot_path,
                 history=self.history,
                 software_name=software_name,
-                if_screenshot=False,
+                if_screenshot=True,
             )
 
         if state == '<Critic>':
