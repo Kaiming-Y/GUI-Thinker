@@ -21,6 +21,10 @@
         "To find the location of the current video file, open the Media Information window.",
         "Copy the video's location from Media Information, then paste it into the File Explorer address bar to open the containing folder.",
         "In Media Information, under the General tab, the Location field shows the full path of the current video.",
-        "Tick the 'Transforme' checkbox, open its dropdown menu, and choose 'Rotate by 180 degrees' to rotate the video."
+        "Tick the 'Transforme' checkbox, open its dropdown menu, and choose 'Rotate by 180 degrees' to rotate the video.",
+        "When adding a logo, the Browse button is labeled '...', so click it.",
+        "Divide clicking 'Browse' and selecting the file into two separate subtasks.",
+        "When searching for 'Video' in the Settings tree on the left side of the Advanced Preferences window, first scroll down the list and then click the 'Video' entry.",
+        "When setting or replacing a hotkey, double-click the existing hotkey or the slot where you want to assign one."
     ]
 }
