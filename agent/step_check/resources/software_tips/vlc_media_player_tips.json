@@ -18,6 +18,10 @@
         "In Media Information, under the General tab, the Location field shows the full path of the current video.",
         "Scrolling to find Qt and clicking on Qt should be separated into two subtasks.",
         "To open Qt: go to Preferences > maximize the window(first press hotkey: Alt + Space, then press X) > double-click on Main interface > scroll to navigate to Qt (note: not Qt interface) > click on Qt in the left panel.",
-        "Tick the 'Transforme' checkbox, open its dropdown menu, and choose 'Rotate by 180 degrees' to rotate the video."
+        "Tick the 'Transforme' checkbox, open its dropdown menu, and choose 'Rotate by 180 degrees' to rotate the video.",
+        "When adding a logo, the Browse button is labeled '...', so click it.",
+        "If you can't find the desired entry in the Settings tree on the left side of the Advanced Preferences window, move your mouse over that list and scroll to navigate.",
+        "When searching for 'Video' in the Settings tree on the left side of the Advanced Preferences window, first scroll down the list and then click the 'Video' entry.",
+        "When setting or replacing a hotkey, double-click the existing hotkey or the slot where you want to assign one."
     ]
 }
