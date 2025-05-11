@@ -17,6 +17,7 @@
         "When adding a logo, the Browse button is labeled '...', so click it.",
         "If you can't find the desired entry in the Settings tree on the left side of the Advanced Preferences window, move your mouse over that list and scroll to navigate.",
         "When searching for 'Video' in the Settings tree on the left side of the Advanced Preferences window, first scroll down the list and then click the 'Video' entry.",
-        "When setting or replacing a hotkey, double-click the existing hotkey or the slot where you want to assign one."
+        "When setting or replacing a hotkey, Double-click the current shortcut or the slot where you want to assign one.",
+        "If clicking the current hotkey doesn't open a pop-up dialog, the setting hasn't been activated, double-click instead."
     ]
 }
