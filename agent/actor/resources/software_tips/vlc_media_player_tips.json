@@ -12,7 +12,7 @@
         "Double-click the path in the Location field to select it, then press Ctrl+C to copy it.",
         "Clicking on Qt does not mean clicking on the 'Qt interface'. Qt appears in the expanded list under Main interface on the left panel but not the Qt interface appears in the right-hand pane after Main interface is selected.",
         "After double-clicking Main interface, its list may expand but remain out of view if the window is too small—so you need to scroll to confirm it.",
-        "In the Advanced Preferences window ('All' settings visible), if you can't find the desired entry in the left sidebar, move your mouse over that sidebar and scroll.",
+        "In the Advanced Preferences window ('All' settings visible), if you can't find the 'Video' entry in the left sidebar, move your mouse over that sidebar and scroll.",
         "Tick the 'Transforme' checkbox, open its dropdown menu, and choose 'Rotate by 180 degrees' to rotate the video.",
         "When adding a logo, the Browse button is labeled '...', so click it.",
         "If you can't find the desired entry in the Settings tree on the left side of the Advanced Preferences window, move your mouse over that list and scroll to navigate.",
